@@ -46,8 +46,8 @@ const events = [
     icon: 'fas fa-birthday-cake',
     modelUrl: {
       light:
-        'https://sketchfab.com/models/5a320a8839b948dfb4595fa91a5f6b70/embed',
-      dark: 'https://sketchfab.com/models/4175776146ba4550a8dd643363b7b0aa/embed',
+        'https://sketchfab.com/models/f9aa3ddd1d9e45589b35ee455ee5ebba/embed',
+      dark: 'https://sketchfab.com/models/85d40289cc794ea89fcb16794394dffe/embed',
     },
   },
   {
@@ -55,8 +55,8 @@ const events = [
     icon: 'fas fa-ring',
     modelUrl: {
       light:
-        'https://sketchfab.com/models/90508ca0305743179e5744dc1d86854e/embed',
-      dark: 'https://sketchfab.com/models/d2bc55028c4e47c5b103a2837bfb9c84/embed',
+        'https://sketchfab.com/models/b4826b653515462ea48de71a9b789b5b/embed',
+      dark: 'https://sketchfab.com/models/b333323467364133bc097b724d798def/embed',
     },
   },
   {
@@ -64,8 +64,8 @@ const events = [
     icon: 'fas fa-baby-carriage',
     modelUrl: {
       light:
-        'https://sketchfab.com/models/544d1cd8a61749f3baec90e5caccb5dc/embed',
-      dark: 'https://sketchfab.com/models/2f28e38cc34540d0aac80958364220cc/embed',
+        'https://sketchfab.com/models/56e0f21e7c1a47988537c6317adbdae3/embed',
+      dark: 'https://sketchfab.com/models/fe94782b86a645cf8119360b2c1e39d6/embed',
     },
   },
   {
@@ -73,8 +73,8 @@ const events = [
     icon: 'fas fa-birthday-cake',
     modelUrl: {
       light:
-        'https://sketchfab.com/models/68f373e944de41b3ba0a53287dab65f6/embed',
-      dark: 'https://sketchfab.com/models/2a3439be456148b7b03c5ec3310cf8fd/embed',
+        'https://sketchfab.com/models/202782d675784751ba5ebba0f624babd/embed',
+      dark: 'https://sketchfab.com/models/f8384f0704c3480186e20a6554b356c3/embed',
     },
   },
 ];
@@ -227,8 +227,8 @@ const resetView = () => {
 const getCurrentModelUrl = () => {
   if (!selectedEvent.value) {
     return isDarkMode.value
-      ? 'https://sketchfab.com/models/51ab7e74bac347a89725f1d22b928edf/embed'
-      : 'https://sketchfab.com/models/8c8547b4c42841029f1ebc1795c49692/embed';
+      ? 'https://sketchfab.com/models/f8776f0c39d0407d8c496ac934280639/embed'
+      : 'https://sketchfab.com/models/e2fc2965d68640bfbd7304d96a769fb1/embed';
   }
   return isDarkMode.value
     ? selectedEvent.value.modelUrl.dark
@@ -368,7 +368,7 @@ const getCurrentModelUrl = () => {
           @click="resetView"
         >
           <i class="fas fa-swimming-pool"></i>
-          Regresar a vista de la alberca
+          Modelo predeterminado
         </button>
       </div>
     </div>
